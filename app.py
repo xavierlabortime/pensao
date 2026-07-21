@@ -74,7 +74,7 @@ with st.container():
         desconsiderar_inss = st.checkbox("Desconsiderar INSS no cálculo", value=False)
         desconsiderar_irrf = st.checkbox("Desconsiderar IRRF no cálculo", value=False)
 
-    calcular = st.button("🔢 Calcular pensão", type="primary", use_container_width=True)
+    calcular = st.button("🔢 Efetuar calculo da pensão", type="primary", use_container_width=True)
 
 if calcular and salario > 0:
     resultado = calcular_pensao(salario, dependentes, percentual)
