@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Calculadora de Pensão", layout="centered")
 
-st.title("🧮 Calculadora de Pensão Alimentícia")
+st.title("🧮 Pensão Alimentícia")
 st.caption("Tabelas INSS e IRRF 2026 — cálculo iterativo pensão x IRRF")
 
 def calcular_inss(salario: float) -> float:
